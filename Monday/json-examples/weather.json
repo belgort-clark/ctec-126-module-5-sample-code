@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": -122.69,
+        "lat": 45.72
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 56.7,
+        "feels_like": 53.83,
+        "temp_min": 53.01,
+        "temp_max": 60.8,
+        "pressure": 1006,
+        "humidity": 67
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 3.36,
+        "deg": 310
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1589776969,
+    "sys": {
+        "type": 1,
+        "id": 5893,
+        "country": "US",
+        "sunrise": 1589718999,
+        "sunset": 1589773077
+    },
+    "timezone": -25200,
+    "id": 0,
+    "name": "Vancouver",
+    "cod": 200
+}
