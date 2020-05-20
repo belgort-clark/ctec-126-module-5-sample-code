@@ -9,6 +9,36 @@
 
     <body>
         <script>
+            const person = {
+                name: "Bruce Elgort",
+                age: 56,
+                address: {
+                    street: "3709 NW 107th Street",
+                    zip: 98685
+                },
+                children: ['Alyssa', 'Brandon', 'Erin']
+            }
+
+            // two ways to display age property
+            console.log(person['age'])
+            console.log(person.age)
+
+            // log out Erin's name
+            console.log(person.children[2])
+
+            // iterate through the person object one property at a time
+            for (item in person) {
+                console.log(person[item])
+            }
+
+            // loop to print out childrens names
+            for (let i = 0; i < person.children.length; i++) {
+                console.log(person.children[i])
+            }
+            // alternative way to loop through and prit out childrens names
+            for (child in person.children) {
+                console.log(person.children[child])
+            }
 
         </script>
     </body>

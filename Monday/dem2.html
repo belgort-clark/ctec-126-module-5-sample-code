@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo 2</title>
+    </head>
+
+    <body>
+        <script>
+            const person = {
+                name: "Bruce Elgort",
+                age: 56,
+                address: {
+                    street: "3709 NW 107th Street",
+                    zip: 98685
+                },
+                children: ['Alyssa', 'Brandon', 'Erin']
+            }
+
+            const students = [
+                {
+                    name: "Bruce Elgort",
+                    age: 56,
+                    address: {
+                        street: "3709 NW 107th Street",
+                        zip: 98685
+                    },
+                    children: ['Alyssa', 'Brandon', 'Erin']
+                },
+                {
+                    name: "Gayle Elgort",
+                    age: 59,
+                    address: {
+                        street: "3709 NW 107th Street",
+                        zip: 98685
+                    },
+                    children: ['Alyssa', 'Brandon', 'Erin']
+                }
+            ]
+
+            console.log(students.length)
+            console.log(students[1].name)
+
+            for (let i = 0; i < students.length; i++) {
+                console.log(students[i].name)
+            }
+
+            data = JSON.stringify(students)
+            console.log(data)
+            data = JSON.parse(data)
+            console.log(data)
+        </script>
+    </body>
+
+</html>
